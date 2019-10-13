@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package example;
+
+message Point {
+  int32 x_axis = 1;
+  int32 y_axis = 2;
+}
